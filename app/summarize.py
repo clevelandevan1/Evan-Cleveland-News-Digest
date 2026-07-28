@@ -117,3 +117,21 @@ def group_by_topic(articles):
             items.sort(key=lambda a: a.get("published", 0), reverse=True)
             grouped.append((topic, items))
     return grouped
+
+
+def group_by_category(articles, order):
+    """Group by each article's 'topic' (a feed category), following `order`.
+
+    Categories in `order` come first in that order; any extra categories are
+    appended alphabetically. Used when AI summarization is off — sections are
+    derived from each feed's configured category, so no AI is required.
+    """
+    present = {a.get("topic", "Other") for a in articles}
+    ordered = [c for c in order if c in present]
+    ordered += sorted(present - set(order))
+    grouped = []
+    for cat in ordered:
+        items = [a for a in articles if a.get("topic", "Other") == cat]
+        items.sort(key=lambda a: a.get("published", 0), reverse=True)
+        grouped.append((cat, items))
+    return grouped

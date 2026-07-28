@@ -19,7 +19,9 @@ fi
 mkdir -p data
 {
     echo "===== digest run: $(date) ====="
-    ./.venv/bin/python -m app.digest
+    # --no-summarize: group by feed category instead of calling Claude, so no
+    # API key is required. Remove this flag if you add an ANTHROPIC_API_KEY.
+    ./.venv/bin/python -m app.digest --no-summarize
     echo "===== exit code: $? ====="
     echo
 } >> data/cron.log 2>&1

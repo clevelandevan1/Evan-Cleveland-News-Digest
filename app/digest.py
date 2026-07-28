@@ -15,6 +15,7 @@ import webbrowser
 from datetime import datetime
 
 from . import emailer, fetch, render, store, summarize
+from . import feeds as feeds_mod
 from .demo_data import DEMO_ARTICLES
 from .feeds import FEEDS
 
@@ -48,13 +49,21 @@ def run(demo=False, open_after=False, limit=8, do_summarize=True, do_email=True)
             print(f"Summarizing with {summarize.MODEL}...")
             summarize.summarize(new_articles)
         else:
+            # No AI: use the feed's own excerpt as the blurb, and take the
+            # topic from each feed's configured category.
             for art in new_articles:
-                art["summary"] = art.get("content", "")[:280] or "(no excerpt)"
-                art["topic"] = "Other"
+                art["summary"] = art.get("content", "")[:400] or "(no excerpt available)"
+                art["topic"] = feeds_mod.category_for(art["source"])
 
     source_count = len({a["source"] for a in new_articles}) or len(FEEDS)
-    grouped = summarize.group_by_topic(new_articles)
-    out = render.render(grouped, len(new_articles), source_count)
+    # Both paths group into topic sections; AI assigns topics per-article,
+    # otherwise topics come from each feed's configured category.
+    grouped = (
+        summarize.group_by_topic(new_articles)
+        if do_summarize
+        else summarize.group_by_category(new_articles, feeds_mod.CATEGORY_ORDER)
+    )
+    out = render.render(grouped, len(new_articles), source_count, ai_summaries=do_summarize)
 
     # Only mark as seen after a successful render, so a crash doesn't cause
     # stories to be silently skipped tomorrow.

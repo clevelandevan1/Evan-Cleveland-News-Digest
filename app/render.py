@@ -151,7 +151,7 @@ def _render_item(art):
     )
 
 
-def render(grouped, new_count, source_count, out_path=None):
+def render(grouped, new_count, source_count, ai_summaries=True, out_path=None):
     """Render `grouped` (list of (topic, [articles])) to an HTML file.
 
     Returns the Path written.
@@ -165,7 +165,8 @@ def render(grouped, new_count, source_count, out_path=None):
             f"{new_count} new "
             f"{'story' if new_count == 1 else 'stories'} across {source_count} "
             f"{'source' if source_count == 1 else 'sources'}, "
-            "summarized and grouped for you."
+            + ("summarized and grouped by topic for you."
+               if ai_summaries else "grouped by topic for you.")
         )
         sections = []
         for topic, items in grouped:
@@ -184,7 +185,8 @@ def render(grouped, new_count, source_count, out_path=None):
 
     footer = (
         f"Generated {now.strftime('%-I:%M %p')} &middot; "
-        "Summaries by Claude &middot; Already-read stories are hidden automatically."
+        + ("Summaries by Claude &middot; " if ai_summaries else "")
+        + "Already-read stories are hidden automatically."
     )
 
     page = _PAGE.format(
