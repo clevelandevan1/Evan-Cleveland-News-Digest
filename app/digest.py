@@ -12,13 +12,14 @@ import argparse
 import os
 import sys
 import webbrowser
+from datetime import datetime
 
-from . import fetch, render, store, summarize
+from . import emailer, fetch, render, store, summarize
 from .demo_data import DEMO_ARTICLES
 from .feeds import FEEDS
 
 
-def run(demo=False, open_after=False, limit=8, do_summarize=True):
+def run(demo=False, open_after=False, limit=8, do_summarize=True, do_email=True):
     if demo:
         print("Running in demo mode (sample data, no network or API key).")
         articles = list(DEMO_ARTICLES)
@@ -61,8 +62,30 @@ def run(demo=False, open_after=False, limit=8, do_summarize=True):
 
     total, _ = store.stats()
     print(f"Digest written. {total} stories now in your read history.")
+
+    if do_email:
+        _maybe_email(out)
+
     _finish(out, open_after)
     return out
+
+
+def _maybe_email(out_path):
+    """Email the rendered digest if SMTP settings are configured."""
+    cfg = emailer.email_config()
+    if not cfg:
+        print(
+            "  (email not sent: set SMTP_USER, SMTP_PASS and DIGEST_TO in .env "
+            "to enable delivery)"
+        )
+        return
+    try:
+        html = out_path.read_text(encoding="utf-8")
+        subject = f"Morning Digest — {datetime.now().strftime('%A, %B %-d')}"
+        emailer.send_digest(subject, html, cfg)
+        print(f"Emailed digest to {cfg['to']}.")
+    except Exception as exc:  # noqa: BLE001 - never let a send failure crash the run
+        print(f"  ! email send failed ({exc}); the page was still written")
 
 
 def _finish(out_path, open_after):
@@ -79,12 +102,16 @@ def main(argv=None):
     parser.add_argument(
         "--no-summarize", action="store_true", help="skip Claude, use excerpts"
     )
+    parser.add_argument(
+        "--no-email", action="store_true", help="don't email the digest even if configured"
+    )
     args = parser.parse_args(argv)
     run(
         demo=args.demo,
         open_after=args.open,
         limit=args.limit,
         do_summarize=not args.no_summarize,
+        do_email=not args.no_email,
     )
 
 

@@ -65,6 +65,19 @@ digest). To trade cost for quality, change the `MODEL` constant in
 `app/summarize.py` to `claude-sonnet-5` or `claude-opus-4-8` — no other changes
 needed.
 
+## Email delivery (optional)
+
+The digest can be emailed to you each morning in addition to the local page.
+Configure SMTP in your `.env` (see `.env.example`). For Gmail:
+
+1. Enable 2-Step Verification on the Google account.
+2. Create an [App Password](https://myaccount.google.com/apppasswords).
+3. Put that app password in `SMTP_PASS`, and set `DIGEST_TO` to the recipient.
+
+Then a normal run will also send the email. Disable per-run with `--no-email`.
+If SMTP isn't fully configured, email is silently skipped and the page is still
+written.
+
 ## Run it automatically each morning
 
 Add a cron entry (runs at 7am daily) once your API key is available to the
