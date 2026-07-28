@@ -23,7 +23,10 @@ def email_config():
     """Return an SMTP config dict, or None if email isn't fully configured."""
     to = os.environ.get("DIGEST_TO")
     user = os.environ.get("SMTP_USER")
-    password = os.environ.get("SMTP_PASS")
+    # Gmail displays app passwords in 4 groups with spaces; the real value is
+    # the 16 characters with no spaces. Normalize so a pasted-with-spaces
+    # password works either way.
+    password = (os.environ.get("SMTP_PASS") or "").replace(" ", "").strip()
     if not (to and user and password):
         return None
     return {
