@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local state — your personal read-history should not be committed
+data/
+
+# Generated digests
+output/
+
+# Secrets (never commit your API key)
+.env
