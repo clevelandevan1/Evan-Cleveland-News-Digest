@@ -1,4 +1,45 @@
 {
   "_README": "Ongoing story threads for cross-day memory. The cloud agent appends/updates threads each run and prunes stale ones. Format per thread: {\"id\", \"title\", \"first_seen\", \"last_update\", \"summary\", \"status\"}.",
-  "threads": []
+  "threads": [
+    {
+      "id": "iran-us-tensions-2026-07",
+      "title": "US-Iran military escalation",
+      "first_seen": "2026-07-29",
+      "last_update": "2026-07-29",
+      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks.",
+      "status": "active"
+    },
+    {
+      "id": "ai-datacenter-buildout-2026",
+      "title": "Hyperscaler AI infrastructure buildout",
+      "first_seen": "2026-07-29",
+      "last_update": "2026-07-29",
+      "summary": "Google raised 2026 capex guidance to $195-205B; Microsoft/3M, SoftBank France (5GW/€75B), Chevron/Microsoft Texas power deal, and a possible Nvidia $250B OpenAI Ohio financing guarantee all point to accelerating AI data-center investment.",
+      "status": "active"
+    },
+    {
+      "id": "cisco-sdwan-exploitation-2026",
+      "title": "Cisco SD-WAN active-exploitation campaign",
+      "first_seen": "2026-07-29",
+      "last_update": "2026-07-29",
+      "summary": "State-aligned actor UAT-8616 has exploited seven Cisco SD-WAN zero-days in 2026 against government/critical-infrastructure targets; campaign remains active.",
+      "status": "active"
+    },
+    {
+      "id": "europe-wildfires-heatwave-2026-07",
+      "title": "France/Spain wildfires and heat wave",
+      "first_seen": "2026-07-29",
+      "last_update": "2026-07-29",
+      "summary": "Wildfires have displaced roughly 330,000 people across France and Spain, the largest peacetime evacuation in French history; a new heat spike is forecast.",
+      "status": "active"
+    },
+    {
+      "id": "japan-kumamoto-earthquake-2026-07",
+      "title": "Japan (Kumamoto) earthquake recovery",
+      "first_seen": "2026-07-29",
+      "last_update": "2026-07-29",
+      "summary": "Magnitude-7.1 quake near Kumamoto has killed 18; rescue operations continue at a collapsed shopping mall.",
+      "status": "active"
+    }
+  ]
 }
