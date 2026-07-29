@@ -89,16 +89,40 @@ def publish():
           f"{len(seen)} total in history.")
 
 
+def list_feeds():
+    """Print the configured feeds as JSON (no network).
+
+    Used by the cloud agent, whose sandbox blocks direct outbound network, so
+    it retrieves each feed via its WebFetch tool instead of feedparser.
+    """
+    from .feeds import category_for
+    out = [
+        {"name": f["name"], "url": f["url"], "category": category_for(f["name"])}
+        for f in FEEDS
+    ]
+    print(json.dumps(out, indent=2, ensure_ascii=False))
+
+
+def seen_ids():
+    """Print the set of already-seen article ids as JSON, for dedupe."""
+    print(json.dumps(sorted(_load(SEEN, {}).keys()), ensure_ascii=False))
+
+
 def main(argv=None):
     argv = argv or sys.argv[1:]
     cmd = argv[0] if argv else ""
-    if cmd == "emit":
+    if cmd == "emit":  # local/testing only — uses feedparser (needs direct network)
         limit = int(argv[1]) if len(argv) > 1 else 12
         emit(limit=limit)
+    elif cmd == "feeds":
+        list_feeds()
+    elif cmd == "seen":
+        seen_ids()
     elif cmd == "publish":
         publish()
     else:
-        print("usage: python -m app.pipeline [emit [limit] | publish]", file=sys.stderr)
+        print("usage: python -m app.pipeline [feeds | seen | emit [limit] | publish]",
+              file=sys.stderr)
         sys.exit(2)
 
 

@@ -4,23 +4,42 @@ You are the editor of a personal morning news digest. You run once each morning
 in a fresh cloud checkout of this repo, with **no prior context** — everything
 you need is in these files. Produce today's digest and publish it, then commit.
 
-## Setup
+## Setup & fetching (IMPORTANT: this sandbox blocks direct network)
+
+This environment's egress policy blocks raw Python/urllib network calls, so
+`feedparser` and `python -m app.pipeline emit` will fetch NOTHING. You MUST pull
+feeds using your **WebFetch** tool, which has sanctioned egress.
 
 ```bash
-pip install -r requirements.txt        # feedparser is required for fetching
-python -m app.pipeline emit            # fetch feeds -> data/pending.json
+pip install -r requirements.txt        # needed for publish/render
+python -m app.pipeline feeds           # prints the feed list (name, url, category)
+python -m app.pipeline seen            # prints ids already shown (for dedupe)
 ```
 
-`emit` writes only stories not already in `data/seen.json`, so you never repeat
-what the reader has seen. If `data/pending.json` is empty, still produce a digest
-(it will show "all caught up" plus any "still developing" notes).
+Then, for each feed URL from `feeds`, use **WebFetch** to retrieve its recent
+items (title, link, and a 1–2 sentence description). Skip feeds that fail — a few
+misses are fine. Build a list of articles, and DROP any whose link is already in
+the `seen` ids (never repeat what the reader saw). Use each article's link as its
+`id`. Write this list to `data/pending.json` as:
+
+```json
+[{"id": "<link>", "source": "CNN", "title": "...", "link": "<link>",
+  "content": "<1-2 sentence description>", "category": "Top Stories"}]
+```
+
+Aim for the ~8 most recent items per feed. If `data/pending.json` ends up empty,
+still produce a digest (it will show "all caught up" plus any "still developing"
+notes) — but an empty result usually means WebFetch wasn't used; retry with it.
 
 ## Inputs to read
 
-- `data/pending.json` — today's NEW articles: `{id, source, title, link, content, category}`
+- `data/pending.json` — the NEW articles you just fetched via WebFetch
 - `config/profile.json` — reader's interests, industry, hometown, watchlist, depth prefs
 - `data/story_memory.json` — ongoing story threads from previous days (your memory)
 - `data/feedback.json` — thumbs up/down weights to tune what you surface
+
+You may also use **WebFetch/WebSearch** to research background primers (item 6) and
+to confirm how outlets are framing a story (item 7).
 
 ## Your job: write `data/analysis.json`
 
