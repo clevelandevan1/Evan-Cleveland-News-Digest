@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morning Digest — 2026-07-30</title>
+<style>
+  :root {
+    --bg:#faf9f6; --card:#fff; --ink:#1a1a1a; --muted:#6b6b6b; --faint:#9b978e;
+    --rule:#e7e4dd; --accent:#8a5a2b; --hot:#b23c2e; --chip:#f0ede6; --chipink:#5a5750;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#16161a; --card:#1e1e24; --ink:#eceae4; --muted:#a5a29a; --faint:#77746c;
+      --rule:#2c2c34; --accent:#d0a06a; --hot:#e07a5f; --chip:#26262e; --chipink:#b8b4ac;
+    }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:Georgia,"Times New Roman",serif; line-height:1.55; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:700px; margin:0 auto; padding:56px 24px 80px; }
+  header.masthead { text-align:center; border-bottom:2px solid var(--ink); padding-bottom:20px; }
+  .masthead h1 { font-size:42px; letter-spacing:.5px; margin:0 0 6px; }
+  .masthead .date { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    text-transform:uppercase; letter-spacing:2.5px; font-size:11px; color:var(--muted); }
+  .intro { text-align:center; color:var(--muted); font-style:italic; font-size:15.5px; margin:20px 0 42px; }
+  section.topic { margin:0 0 44px; }
+  .topic-title { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:13px;
+    text-transform:uppercase; letter-spacing:2px; color:var(--accent); border-bottom:1px solid var(--rule);
+    padding-bottom:8px; margin:0 0 22px; }
+  section.featured .topic-title { color:var(--hot); }
+  article.item { margin:0 0 26px; padding-bottom:22px; border-bottom:1px solid var(--rule); }
+  article.item:last-child { border-bottom:none; }
+  .item-head { display:flex; align-items:baseline; gap:10px; }
+  article.item h3 { font-size:19px; line-height:1.3; margin:0 0 4px; font-weight:700; }
+  article.deep h3 { font-size:23px; }
+  .summary { margin:6px 0 8px; font-size:16px; }
+  article.brief .summary { color:var(--muted); font-size:15px; }
+  .stakes { display:inline-flex; gap:3px; flex:0 0 auto; transform:translateY(-2px); }
+  .stakes .dot { width:7px; height:7px; border-radius:50%; background:var(--rule); }
+  .stakes .dot.on { background:var(--hot); }
+  .followup { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:12.5px;
+    color:var(--accent); margin:2px 0 6px; }
+  .note { font-size:14.5px; margin:8px 0; padding:8px 12px; border-left:3px solid var(--rule); background:var(--card); }
+  .note-label { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:11px;
+    text-transform:uppercase; letter-spacing:1px; color:var(--faint); margin-right:6px; }
+  .note.framing { border-left-color:var(--accent); }
+  .note.new { border-left-color:var(--hot); }
+  details.primer { margin:8px 0; font-size:14.5px; }
+  details.primer summary { cursor:pointer; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-size:11.5px; text-transform:uppercase; letter-spacing:1px; color:var(--accent); }
+  details.primer p { margin:8px 0 0; color:var(--muted); }
+  .action { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:13.5px;
+    background:var(--chip); color:var(--ink); padding:8px 12px; border-radius:6px; margin:10px 0; }
+  .meta { display:flex; align-items:center; flex-wrap:wrap; gap:8px 14px; margin-top:10px; }
+  .sources { display:flex; align-items:center; flex-wrap:wrap; gap:6px; }
+  .src { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:11px;
+    letter-spacing:.5px; text-transform:uppercase; color:var(--faint); text-decoration:none; }
+  a.src:hover { color:var(--accent); }
+  .cluster-tag { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:10.5px;
+    background:var(--chip); color:var(--chipink); padding:2px 7px; border-radius:10px; letter-spacing:.5px; }
+  .tags { display:flex; gap:6px; flex-wrap:wrap; }
+  .tag { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:11px;
+    color:var(--accent); border:1px solid var(--rule); padding:1px 8px; border-radius:10px; }
+  .feedback { margin-left:auto; display:flex; gap:8px; }
+  .fb { text-decoration:none; font-size:14px; opacity:.5; }
+  .fb:hover { opacity:1; }
+  .nolist { margin:0; padding-left:18px; color:var(--muted); font-size:15px; }
+  .nolist li { margin:6px 0; }
+  .empty { text-align:center; color:var(--muted); font-style:italic; padding:40px 0; }
+  footer { border-top:1px solid var(--rule); margin-top:40px; padding-top:20px; text-align:center;
+    color:var(--faint); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-size:12px; line-height:1.7; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <h1>Morning Digest</h1>
+      <div class="date">Thursday, July 30, 2026</div>
+    </header>
+    <p class="intro">A quieter morning — one major escalation overseas, plus movement on the enterprise-AI front worth your attention.</p>
+    <section class="topic featured">
+<h2 class="topic-title">What matters most</h2>
+<article class="item deep"><div class="item-head"><span class="stakes" title="Stakes 5/5"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span></span><h3>Strait of Hormuz Attacks Push Oil Routes to the Brink</h3></div><div class="followup">&#8618; Follow-up to Tuesday&#x27;s piece on the initial tanker seizure; situation has escalated from one route to two.</div><p class="summary">Coordinated attacks on shipping in the Strait of Hormuz have forced Saudi Arabia onto a backup export route now itself under threat. Analysts warn a sustained closure could add double digits to crude prices within weeks.</p><div class="note new"><span class="note-label">What&rsquo;s new</span> Today&#x27;s development is the backup route now being threatened too — prior coverage only noted the primary route.</div><div class="note framing"><span class="note-label">How outlets frame it</span> NYT emphasizes energy-market fallout; Al Jazeera centers regional civilian impact; CNN leads on U.S. military positioning.</div><details class="primer"><summary>Context</summary><p>The Strait of Hormuz is a narrow chokepoint between the Persian Gulf and the open ocean through which roughly a fifth of global oil passes — which is why disruptions there move world prices.</p></details><div class="action">&#9873; Energy-price spikes tend to raise data-center operating costs — worth watching if it holds.</div><div class="meta"><div class="sources"><span class="cluster-tag">3 outlets</span><a class="src" href="https://www.nytimes.com/" target="_blank" rel="noopener">The New York Times</a><a class="src" href="https://www.cnn.com/" target="_blank" rel="noopener">CNN</a><a class="src" href="https://www.aljazeera.com/" target="_blank" rel="noopener">Al Jazeera</a></div><div class="tags"><span class="tag">data centers</span><span class="tag">semiconductors</span></div><span class="feedback"><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:up: Strait of Hormuz Attacks Push Oil Routes to the Brink&body=id: cluster-hormuz
+vote: up
+
+(add any notes here)" title="More like this" target="_blank" rel="noopener">&#128077;</a><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:down: Strait of Hormuz Attacks Push Oil Routes to the Brink&body=id: cluster-hormuz
+vote: down
+
+(add any notes here)" title="Less like this" target="_blank" rel="noopener">&#128078;</a></span></div></article>
+<article class="item deep"><div class="item-head"><span class="stakes" title="Stakes 4/5"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot "></span></span><h3>Apple Opens On-Device AI Models to Enterprise Developers</h3></div><p class="summary">Apple will let enterprises run its foundation models fully on-device, pitching data never leaving the building as the differentiator. Early access opens this fall with management hooks for IT departments.</p><div class="note new"><span class="note-label">What&rsquo;s new</span> The enterprise/on-prem angle and IT management hooks are new; earlier reporting covered only consumer features.</div><div class="note framing"><span class="note-label">How outlets frame it</span> Apple frames it as privacy-first; Ars frames it as a direct shot at cloud-AI incumbents.</div><div class="action">&#9873; Directly relevant to WWT&#x27;s enterprise-AI practice — you may want to flag this to your team.</div><div class="meta"><div class="sources"><span class="cluster-tag">2 outlets</span><a class="src" href="https://www.apple.com/newsroom/" target="_blank" rel="noopener">Apple Newsroom</a><a class="src" href="https://arstechnica.com/" target="_blank" rel="noopener">Ars Technica</a></div><div class="tags"><span class="tag">enterprise IT</span><span class="tag">artificial intelligence</span><span class="tag">WWT</span></div><span class="feedback"><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:up: Apple Opens On-Device AI Models to Enterprise Developers&body=id: story-apple-onprem-ai
+vote: up
+
+(add any notes here)" title="More like this" target="_blank" rel="noopener">&#128077;</a><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:down: Apple Opens On-Device AI Models to Enterprise Developers&body=id: story-apple-onprem-ai
+vote: down
+
+(add any notes here)" title="Less like this" target="_blank" rel="noopener">&#128078;</a></span></div></article>
+</section>
+<section class="topic">
+<h2 class="topic-title">Technology</h2>
+<article class="item brief"><div class="item-head"><span class="stakes" title="Stakes 3/5"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot "></span><span class="dot "></span></span><h3>New chip-export rules land on advanced accelerators</h3></div><p class="summary">Fresh restrictions tighten sales of high-end AI accelerators to several markets.</p><div class="meta"><div class="sources"><a class="src" href="https://techcrunch.com/" target="_blank" rel="noopener">TechCrunch</a></div><div class="tags"><span class="tag">semiconductors</span></div><span class="feedback"><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:up: New chip-export rules land on advanced accelerators&body=id: brief-chip-export
+vote: up
+
+(add any notes here)" title="More like this" target="_blank" rel="noopener">&#128077;</a><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:down: New chip-export rules land on advanced accelerators&body=id: brief-chip-export
+vote: down
+
+(add any notes here)" title="Less like this" target="_blank" rel="noopener">&#128078;</a></span></div></article>
+<article class="item brief"><div class="item-head"><span class="stakes" title="Stakes 2/5"><span class="dot on"></span><span class="dot on"></span><span class="dot "></span><span class="dot "></span><span class="dot "></span></span><h3>Hyperscaler announces three new U.S. data-center campuses</h3></div><p class="summary">The buildout targets AI capacity, with power agreements already signed.</p><div class="meta"><div class="sources"><a class="src" href="https://www.theverge.com/" target="_blank" rel="noopener">The Verge</a></div><div class="tags"><span class="tag">data centers</span><span class="tag">cloud computing</span></div><span class="feedback"><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:up: Hyperscaler announces three new U.S. data-center campuses&body=id: brief-verge-datacenter
+vote: up
+
+(add any notes here)" title="More like this" target="_blank" rel="noopener">&#128077;</a><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:down: Hyperscaler announces three new U.S. data-center campuses&body=id: brief-verge-datacenter
+vote: down
+
+(add any notes here)" title="Less like this" target="_blank" rel="noopener">&#128078;</a></span></div></article>
+</section>
+<section class="topic">
+<h2 class="topic-title">Business &amp; Economy</h2>
+<article class="item brief"><div class="item-head"><span class="stakes" title="Stakes 3/5"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot "></span><span class="dot "></span></span><h3>Central banks signal a slower pace as inflation cools</h3></div><p class="summary">Officials stressed the shift is data-dependent, not a commitment to cuts.</p><div class="meta"><div class="sources"><span class="cluster-tag">2 outlets</span><a class="src" href="https://www.marketwatch.com/" target="_blank" rel="noopener">MarketWatch</a><a class="src" href="https://www.economist.com/" target="_blank" rel="noopener">The Economist</a></div><span class="feedback"><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:up: Central banks signal a slower pace as inflation cools&body=id: brief-fed
+vote: up
+
+(add any notes here)" title="More like this" target="_blank" rel="noopener">&#128077;</a><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:down: Central banks signal a slower pace as inflation cools&body=id: brief-fed
+vote: down
+
+(add any notes here)" title="Less like this" target="_blank" rel="noopener">&#128078;</a></span></div></article>
+</section>
+<section class="topic">
+<h2 class="topic-title">Sports</h2>
+<article class="item brief"><div class="item-head"><span class="stakes" title="Stakes 1/5"><span class="dot on"></span><span class="dot "></span><span class="dot "></span><span class="dot "></span><span class="dot "></span></span><h3>Underdog advances after a stunning late comeback</h3></div><p class="summary">The result reshuffles the standings heading into the final stretch.</p><div class="meta"><div class="sources"><a class="src" href="https://www.espn.com/" target="_blank" rel="noopener">ESPN</a></div><span class="feedback"><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:up: Underdog advances after a stunning late comeback&body=id: brief-upset
+vote: up
+
+(add any notes here)" title="More like this" target="_blank" rel="noopener">&#128077;</a><a class="fb" href="https://github.com/clevelandevan1/Evan-Cleveland-News-Digest/issues/new?labels=feedback&title=feedback:down: Underdog advances after a stunning late comeback&body=id: brief-upset
+vote: down
+
+(add any notes here)" title="Less like this" target="_blank" rel="noopener">&#128078;</a></span></div></article>
+</section>
+<section class="topic developing">
+<h2 class="topic-title">Still developing</h2>
+<ul class='nolist'>
+<li>No major update on Monday&#x27;s story about the proposed federal spending package — still in committee.</li>
+<li>The data-center zoning fight from last week is quiet; next hearing is scheduled for August.</li>
+</ul></section>
+    <footer>Generated for your morning read &middot; Analysis by Claude &middot; Weighted up enterprise-tech and down celebrity coverage based on your recent 👍/👎.</footer>
+  </div>
+</body>
+</html>

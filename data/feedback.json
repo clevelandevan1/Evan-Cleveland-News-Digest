@@ -1,0 +1,6 @@
+{
+  "_README": "Thumbs up/down signals. The 👍/👎 buttons in the digest open a prefilled GitHub issue labeled 'feedback'; the cloud agent folds open feedback issues into this file each run (then closes them) and uses the tallies to tune what it surfaces. Format: {\"topic_weights\": {topic: number}, \"source_weights\": {source: number}, \"keyword_weights\": {keyword: number}}.",
+  "topic_weights": {},
+  "source_weights": {},
+  "keyword_weights": {}
+}

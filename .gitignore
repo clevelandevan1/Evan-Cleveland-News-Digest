@@ -4,11 +4,18 @@ __pycache__/
 .venv/
 venv/
 
-# Local state — your personal read-history should not be committed
-data/
-
-# Generated digests
-output/
-
-# Secrets (never commit your API key)
+# Secrets (never commit keys or app passwords)
 .env
+
+# Local-only artifacts
+output/
+data/cron.log
+data/launchd.log
+data/seen.db
+
+# Transient pipeline files (regenerated every run — not memory)
+data/pending.json
+data/analysis.json
+
+# NOTE: committed on purpose (cloud agent's cross-day memory + published site):
+#   data/seen.json  data/story_memory.json  data/feedback.json  docs/

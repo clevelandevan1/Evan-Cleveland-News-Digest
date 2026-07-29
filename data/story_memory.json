@@ -1,0 +1,4 @@
+{
+  "_README": "Ongoing story threads for cross-day memory. The cloud agent appends/updates threads each run and prunes stale ones. Format per thread: {\"id\", \"title\", \"first_seen\", \"last_update\", \"summary\", \"status\"}.",
+  "threads": []
+}

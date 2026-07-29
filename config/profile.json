@@ -1,0 +1,26 @@
+{
+  "_README": "Your personalization profile. Edit freely; the cloud agent reads this each morning to prioritize, tag, and flag stories. Leave a list empty to disable that feature.",
+
+  "interests": [
+    "enterprise IT",
+    "artificial intelligence",
+    "cloud computing",
+    "cybersecurity",
+    "data centers",
+    "networking",
+    "semiconductors"
+  ],
+  "industry": "enterprise technology / IT solutions (World Wide Technology)",
+  "hometown": "",
+
+  "watchlist": {
+    "_README": "Tickers you hold or track, and any names/topics you want flagged as action items.",
+    "holdings": [],
+    "topics": []
+  },
+
+  "depth": {
+    "deep_dive_count": 3,
+    "_README": "How many stories get the full deep-dive treatment; the rest are one-line briefs."
+  }
+}
