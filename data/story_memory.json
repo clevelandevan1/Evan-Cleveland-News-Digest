@@ -6,15 +6,15 @@
       "title": "US-Iran military escalation",
       "first_seen": "2026-07-29",
       "last_update": "2026-07-29",
-      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks.",
+      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks. No new escalation reported as of July 30.",
       "status": "active"
     },
     {
       "id": "ai-datacenter-buildout-2026",
       "title": "Hyperscaler AI infrastructure buildout",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-29",
-      "summary": "Google raised 2026 capex guidance to $195-205B; Microsoft/3M, SoftBank France (5GW/€75B), Chevron/Microsoft Texas power deal, and a possible Nvidia $250B OpenAI Ohio financing guarantee all point to accelerating AI data-center investment.",
+      "last_update": "2026-07-30",
+      "summary": "Google raised 2026 capex guidance to $195-205B; Microsoft/3M, SoftBank France (5GW/E75B), and Chevron/Microsoft Texas power deal all point to accelerating AI data-center investment. Now confirmed: Nvidia is in talks for a ~$250B guarantee backing OpenAI's $500B, 10GW Ohio data-center lease (SoftBank's SB Energy), plus a separate ~$350B facility for OpenAI's chip purchases; analysts have begun calling the structure 'circular financing.' Same week, chip stocks (Nvidia, SK Hynix, Samsung, Micron, AMD, TSMC) shed over $1 trillion in combined market cap on doubts about AI capex sustainability.",
       "status": "active"
     },
     {
@@ -22,7 +22,7 @@
       "title": "Cisco SD-WAN active-exploitation campaign",
       "first_seen": "2026-07-29",
       "last_update": "2026-07-29",
-      "summary": "State-aligned actor UAT-8616 has exploited seven Cisco SD-WAN zero-days in 2026 against government/critical-infrastructure targets; campaign remains active.",
+      "summary": "State-aligned actor UAT-8616 has exploited seven Cisco SD-WAN zero-days in 2026 against government/critical-infrastructure targets; campaign remains active. No new disclosures as of July 30.",
       "status": "active"
     },
     {
@@ -30,15 +30,31 @@
       "title": "France/Spain wildfires and heat wave",
       "first_seen": "2026-07-29",
       "last_update": "2026-07-29",
-      "summary": "Wildfires have displaced roughly 330,000 people across France and Spain, the largest peacetime evacuation in French history; a new heat spike is forecast.",
+      "summary": "Wildfires have displaced roughly 330,000 people across France and Spain, the largest peacetime evacuation in French history; a new heat spike is forecast. No confirmed new figures as of July 30.",
       "status": "active"
     },
     {
       "id": "japan-kumamoto-earthquake-2026-07",
       "title": "Japan (Kumamoto) earthquake recovery",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-29",
-      "summary": "Magnitude-7.1 quake near Kumamoto has killed 18; rescue operations continue at a collapsed shopping mall.",
+      "last_update": "2026-07-30",
+      "summary": "Magnitude-7.1 quake near Kumamoto: death toll has climbed from 18 (July 29) to a range of 25-34 depending on outlet/confirmation criteria as of July 30. Rescue operations continue at a collapsed shopping mall and a paper mill; over 10,000 remain in evacuation shelters.",
+      "status": "active"
+    },
+    {
+      "id": "fauci-covid-origins-hearing-2026-07",
+      "title": "Fauci Senate hearing / contempt-of-Congress threat",
+      "first_seen": "2026-07-30",
+      "last_update": "2026-07-30",
+      "summary": "Fauci invoked the Fifth Amendment 100+ times in a Senate Judiciary hearing on COVID's origins. Committee chair Rand Paul plans a contempt-of-Congress vote next week; a referral would go to DOJ.",
+      "status": "active"
+    },
+    {
+      "id": "fed-rate-hold-2026-07",
+      "title": "Fed rate decisions",
+      "first_seen": "2026-07-30",
+      "last_update": "2026-07-30",
+      "summary": "Fed held its benchmark rate at 3.5%-3.75% for a fifth straight meeting on July 29, with three FOMC members dissenting in favor of a hike. Stocks fell on the news; 30-year Treasury yield hit its highest level since 2007.",
       "status": "active"
     }
   ]
