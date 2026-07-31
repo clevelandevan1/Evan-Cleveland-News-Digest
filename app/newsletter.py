@@ -31,6 +31,7 @@ Expected analysis shape (all fields optional except headline):
 
 import html
 from datetime import datetime
+from urllib.parse import quote
 
 # Prefilled GitHub-issue feedback links (no backend needed).
 REPO = "https://github.com/clevelandevan1/Evan-Cleveland-News-Digest"
@@ -44,9 +45,9 @@ def _feedback_links(item):
     hid = item.get("id") or item.get("headline", "")
     head = item.get("headline", "")
     def link(vote, glyph, label):
-        title = _esc(f"feedback:{vote}: {head}")
-        body = _esc(f"id: {hid}\nvote: {vote}\n\n(add any notes here)")
-        url = f"{REPO}/issues/new?labels=feedback&title={title}&body={body}"
+        title = quote(f"feedback:{vote}: {head}")
+        body = quote(f"id: {hid}\nvote: {vote}\n\n(add any notes here)")
+        url = _esc(f"{REPO}/issues/new?labels=feedback&title={title}&body={body}")
         return f'<a class="fb" href="{url}" title="{label}" target="_blank" rel="noopener">{glyph}</a>'
     return (
         '<span class="feedback">'
