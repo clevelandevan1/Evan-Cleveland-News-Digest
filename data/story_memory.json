@@ -3,18 +3,26 @@
   "threads": [
     {
       "id": "iran-us-tensions-2026-07",
-      "title": "US-Iran military escalation",
+      "title": "US-Israel war on Iran",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-29",
-      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks. No new escalation reported as of July 30.",
+      "last_update": "2026-07-31",
+      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks. The confrontation has since broadened into a declared U.S.-Israel war on Iran (launched February 2026): Tehran says the US will 'pay the price' for civilian deaths in a strike on Qeshm island, and NATO jets scrambled July 30 after a Russian missile detonated in Poland amid related regional tension. See separate thread for the Gaza/Hamas disarmament deal announced July 31, which runs alongside but is distinct from this war.",
+      "status": "active"
+    },
+    {
+      "id": "gaza-hamas-disarmament-2026-07",
+      "title": "Gaza ceasefire / Hamas disarmament deal",
+      "first_seen": "2026-07-31",
+      "last_update": "2026-07-31",
+      "summary": "Trump announced Hamas agreed, via the Gaza Board of Peace, to a phased disarmament roadmap matched by Israeli withdrawal from Gaza; a detailed plan is due within 14 days. Neither Hamas nor Israel has publicly confirmed. Distinct from, but announced alongside, the ongoing wider US-Israel war on Iran.",
       "status": "active"
     },
     {
       "id": "ai-datacenter-buildout-2026",
       "title": "Hyperscaler AI infrastructure buildout",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-30",
-      "summary": "Google raised 2026 capex guidance to $195-205B; Microsoft/3M, SoftBank France (5GW/E75B), and Chevron/Microsoft Texas power deal all point to accelerating AI data-center investment. Now confirmed: Nvidia is in talks for a ~$250B guarantee backing OpenAI's $500B, 10GW Ohio data-center lease (SoftBank's SB Energy), plus a separate ~$350B facility for OpenAI's chip purchases; analysts have begun calling the structure 'circular financing.' Same week, chip stocks (Nvidia, SK Hynix, Samsung, Micron, AMD, TSMC) shed over $1 trillion in combined market cap on doubts about AI capex sustainability.",
+      "last_update": "2026-07-31",
+      "summary": "Google raised 2026 capex guidance to $195-205B; Microsoft/3M, SoftBank France (5GW/E75B), and Chevron/Microsoft Texas power deal all point to accelerating AI data-center investment. Now confirmed: Nvidia is in talks for a ~$250B guarantee backing OpenAI's $500B, 10GW Ohio data-center lease (SoftBank's SB Energy), plus a separate ~$350B facility for OpenAI's chip purchases; analysts have begun calling the structure 'circular financing.' Same week, chip stocks (Nvidia, SK Hynix, Samsung, Micron, AMD, TSMC) shed over $1 trillion in combined market cap on doubts about AI capex sustainability. July 31: investor enthusiasm is concentrating on cloud-infrastructure hosts over model developers, and Microsoft is now positioning itself as a direct competitor to OpenAI/Anthropic (own models, agent tooling) rather than just their host; Q2 GDP data shows AI-related imports (chips, compute hardware) widening the US trade deficit and denting growth (1.5% vs 2.1% prior quarter).",
       "status": "active"
     },
     {
@@ -45,16 +53,16 @@
       "id": "fauci-covid-origins-hearing-2026-07",
       "title": "Fauci Senate hearing / contempt-of-Congress threat",
       "first_seen": "2026-07-30",
-      "last_update": "2026-07-30",
-      "summary": "Fauci invoked the Fifth Amendment 100+ times in a Senate Judiciary hearing on COVID's origins. Committee chair Rand Paul plans a contempt-of-Congress vote next week; a referral would go to DOJ.",
+      "last_update": "2026-07-31",
+      "summary": "Fauci invoked the Fifth Amendment 100+ times in a Senate Judiciary hearing on COVID's origins. Committee chair Rand Paul plans a contempt-of-Congress vote next week; a referral would go to DOJ. July 31: public health experts now warn the spectacle could have a 'chilling effect,' discouraging future officials from serving in public health roles.",
       "status": "active"
     },
     {
       "id": "fed-rate-hold-2026-07",
       "title": "Fed rate decisions",
       "first_seen": "2026-07-30",
-      "last_update": "2026-07-30",
-      "summary": "Fed held its benchmark rate at 3.5%-3.75% for a fifth straight meeting on July 29, with three FOMC members dissenting in favor of a hike. Stocks fell on the news; 30-year Treasury yield hit its highest level since 2007.",
+      "last_update": "2026-07-31",
+      "summary": "Fed held its benchmark rate at 3.5%-3.75% for a fifth straight meeting on July 29, with three FOMC members dissenting in favor of a hike. Stocks fell on the news; 30-year Treasury yield hit its highest level since 2007. July 31: Q2 GDP growth came in at 1.5% (down from 2.1%), with AI-driven imports widening the trade deficit; the 30-year mortgage rate hit 6.66% on July 30.",
       "status": "active"
     }
   ]
