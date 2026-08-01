@@ -5,8 +5,16 @@
       "id": "iran-us-tensions-2026-07",
       "title": "US-Israel war on Iran",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-31",
-      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks. The confrontation has since broadened into a declared U.S.-Israel war on Iran (launched February 2026): Tehran says the US will 'pay the price' for civilian deaths in a strike on Qeshm island, and NATO jets scrambled July 30 after a Russian missile detonated in Poland amid related regional tension. See separate thread for the Gaza/Hamas disarmament deal announced July 31, which runs alongside but is distinct from this war.",
+      "last_update": "2026-08-01",
+      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks. The confrontation has since broadened into a declared U.S.-Israel war on Iran (launched February 2026): Tehran says the US will 'pay the price' for civilian deaths in a strike on Qeshm island, and NATO jets scrambled July 30 after a Russian missile detonated in Poland amid related regional tension. Aug 1: Trump says fresh US strikes on Iran are coming as soon as this weekend ('we'll be hitting them very hard'); Kuwait says it intercepted Iranian drones that struck a government facility and civilian vehicles, widening the conflict's geographic footprint. A new AP-NORC poll (July 23-27) puts Trump's overall approval at 33%, with about two-thirds of Americans saying the war has not been worth fighting. See separate thread for the Gaza/Hamas disarmament deal announced July 31, which runs alongside but is distinct from this war.",
+      "status": "active"
+    },
+    {
+      "id": "ceuta-migrant-crisis-2026-07",
+      "title": "Mass migrant crossing into Spain's Ceuta",
+      "first_seen": "2026-08-01",
+      "last_update": "2026-08-01",
+      "summary": "Roughly 60,000 people crossed from Morocco into the Spanish enclave of Ceuta this week after a Spanish Supreme Court ruling made it harder to turn back migrants arriving by sea; social media posts encouraging the crossing are cited as a contributing factor. Outlets report death tolls ranging from at least 18 to over 60 (drownings and a stampede at a border fence), with most migrants having voluntarily returned to Morocco. Spain's PM is visiting the territory; France has tightened checks on its own border with Spain and Italy has floated suspending Spain from the EU's open-border scheme.",
       "status": "active"
     },
     {
@@ -45,8 +53,8 @@
       "id": "japan-kumamoto-earthquake-2026-07",
       "title": "Japan (Kumamoto) earthquake recovery",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-30",
-      "summary": "Magnitude-7.1 quake near Kumamoto: death toll has climbed from 18 (July 29) to a range of 25-34 depending on outlet/confirmation criteria as of July 30. Rescue operations continue at a collapsed shopping mall and a paper mill; over 10,000 remain in evacuation shelters.",
+      "last_update": "2026-07-31",
+      "summary": "Magnitude-7.1 quake near Kumamoto: death toll has climbed from 18 (July 29) to 34 as of July 31. Rescue operations continue at a collapsed shopping mall (Kashima) and a paper mill (Yatsushiro); over 10,000 remain in evacuation shelters, and extreme summer heat combined with water/power outages is raising heatstroke risk for displaced residents.",
       "status": "active"
     },
     {
