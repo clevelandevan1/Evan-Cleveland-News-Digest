@@ -5,16 +5,16 @@
       "id": "iran-us-tensions-2026-07",
       "title": "US-Israel war on Iran",
       "first_seen": "2026-07-29",
-      "last_update": "2026-08-01",
-      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks. The confrontation has since broadened into a declared U.S.-Israel war on Iran (launched February 2026): Tehran says the US will 'pay the price' for civilian deaths in a strike on Qeshm island, and NATO jets scrambled July 30 after a Russian missile detonated in Poland amid related regional tension. Aug 1: Trump says fresh US strikes on Iran are coming as soon as this weekend ('we'll be hitting them very hard'); Kuwait says it intercepted Iranian drones that struck a government facility and civilian vehicles, widening the conflict's geographic footprint. A new AP-NORC poll (July 23-27) puts Trump's overall approval at 33%, with about two-thirds of Americans saying the war has not been worth fighting. See separate thread for the Gaza/Hamas disarmament deal announced July 31, which runs alongside but is distinct from this war.",
+      "last_update": "2026-08-02",
+      "summary": "Iran fired missiles at US forces in Jordan (intercepted); US and Saudi jets struck Iran-aligned targets in Iraq in response to prior drone attacks. The confrontation has since broadened into a declared U.S.-Israel war on Iran (launched February 2026): Tehran says the US will 'pay the price' for civilian deaths in a strike on Qeshm island, and NATO jets scrambled July 30 after a Russian missile detonated in Poland amid related regional tension. Aug 1: Trump says fresh US strikes on Iran are coming as soon as this weekend ('we'll be hitting them very hard'); Kuwait says it intercepted Iranian drones that struck a government facility and civilian vehicles, widening the conflict's geographic footprint. A new AP-NORC poll (July 23-27) puts Trump's overall approval at 33%, with about two-thirds of Americans saying the war has not been worth fighting. Aug 2: Trump reversed course, saying he is canceling the planned strikes because 'the perimeters of a deal' have been agreed to reopen the Strait of Hormuz and end Iran's nuclear program, after Saudi Arabia and other regional powers urged de-escalation; Iranian state media has given no indication Tehran requested the pause or agreed to any new terms, so the reported deal is unconfirmed from Iran's side. See separate thread for the Gaza/Hamas disarmament deal announced July 31, which runs alongside but is distinct from this war.",
       "status": "active"
     },
     {
       "id": "ceuta-migrant-crisis-2026-07",
       "title": "Mass migrant crossing into Spain's Ceuta",
       "first_seen": "2026-08-01",
-      "last_update": "2026-08-01",
-      "summary": "Roughly 60,000 people crossed from Morocco into the Spanish enclave of Ceuta this week after a Spanish Supreme Court ruling made it harder to turn back migrants arriving by sea; social media posts encouraging the crossing are cited as a contributing factor. Outlets report death tolls ranging from at least 18 to over 60 (drownings and a stampede at a border fence), with most migrants having voluntarily returned to Morocco. Spain's PM is visiting the territory; France has tightened checks on its own border with Spain and Italy has floated suspending Spain from the EU's open-border scheme.",
+      "last_update": "2026-08-02",
+      "summary": "Roughly 60,000 people crossed from Morocco into the Spanish enclave of Ceuta this week after a Spanish Supreme Court ruling made it harder to turn back migrants arriving by sea; social media posts encouraging the crossing are cited as a contributing factor. Outlets report death tolls ranging from at least 18 to over 60 (drownings and a stampede at a border fence), with most migrants having voluntarily returned to Morocco. Spain's PM is visiting the territory; France has tightened checks on its own border with Spain and Italy has floated suspending Spain from the EU's open-border scheme. Aug 1: Spain confirmed the death toll at 67 and said the situation has been 'almost entirely reversed,' with most migrants having voluntarily returned to Morocco; Spain is installing a 500-meter floating barrier along the border fence, and officials warned of possible additional uncounted casualties on the Moroccan side.",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "id": "ai-datacenter-buildout-2026",
       "title": "Hyperscaler AI infrastructure buildout",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-31",
-      "summary": "Google raised 2026 capex guidance to $195-205B; Microsoft/3M, SoftBank France (5GW/E75B), and Chevron/Microsoft Texas power deal all point to accelerating AI data-center investment. Now confirmed: Nvidia is in talks for a ~$250B guarantee backing OpenAI's $500B, 10GW Ohio data-center lease (SoftBank's SB Energy), plus a separate ~$350B facility for OpenAI's chip purchases; analysts have begun calling the structure 'circular financing.' Same week, chip stocks (Nvidia, SK Hynix, Samsung, Micron, AMD, TSMC) shed over $1 trillion in combined market cap on doubts about AI capex sustainability. July 31: investor enthusiasm is concentrating on cloud-infrastructure hosts over model developers, and Microsoft is now positioning itself as a direct competitor to OpenAI/Anthropic (own models, agent tooling) rather than just their host; Q2 GDP data shows AI-related imports (chips, compute hardware) widening the US trade deficit and denting growth (1.5% vs 2.1% prior quarter).",
+      "last_update": "2026-08-02",
+      "summary": "Google raised 2026 capex guidance to $195-205B; Microsoft/3M, SoftBank France (5GW/E75B), and Chevron/Microsoft Texas power deal all point to accelerating AI data-center investment. Now confirmed: Nvidia is in talks for a ~$250B guarantee backing OpenAI's $500B, 10GW Ohio data-center lease (SoftBank's SB Energy), plus a separate ~$350B facility for OpenAI's chip purchases; analysts have begun calling the structure 'circular financing.' Same week, chip stocks (Nvidia, SK Hynix, Samsung, Micron, AMD, TSMC) shed over $1 trillion in combined market cap on doubts about AI capex sustainability. July 31: investor enthusiasm is concentrating on cloud-infrastructure hosts over model developers, and Microsoft is now positioning itself as a direct competitor to OpenAI/Anthropic (own models, agent tooling) rather than just their host; Q2 GDP data shows AI-related imports (chips, compute hardware) widening the US trade deficit and denting growth (1.5% vs 2.1% prior quarter). Aug 2: First hard demand-side confirmation — Amazon's Q2 earnings show AWS revenue up 37% YoY to $42.2B (vs. 31% expected), its fastest growth in 18 quarters, with AI/chip businesses each topping $25B annualized run rate; Amazon plans $220B in 2026 capex, suggesting the capex buildout still has enterprise demand behind it despite the chip-stock selloff.",
       "status": "active"
     },
     {
@@ -45,8 +45,8 @@
       "id": "europe-wildfires-heatwave-2026-07",
       "title": "France/Spain wildfires and heat wave",
       "first_seen": "2026-07-29",
-      "last_update": "2026-07-29",
-      "summary": "Wildfires have displaced roughly 330,000 people across France and Spain, the largest peacetime evacuation in French history; a new heat spike is forecast. No confirmed new figures as of July 30.",
+      "last_update": "2026-08-02",
+      "summary": "Wildfires have displaced roughly 330,000 people across France and Spain, the largest peacetime evacuation in French history; a new heat spike is forecast. No confirmed new figures as of July 30. Aug 2: Fires are stabilizing in both countries (Madrid-area and Gironde blazes both described as 'technically stabilized'); authorities have begun letting evacuees return home, though a fourth heat wave of the summer could still complicate the recovery.",
       "status": "active"
     },
     {
@@ -71,6 +71,14 @@
       "first_seen": "2026-07-30",
       "last_update": "2026-07-31",
       "summary": "Fed held its benchmark rate at 3.5%-3.75% for a fifth straight meeting on July 29, with three FOMC members dissenting in favor of a hike. Stocks fell on the news; 30-year Treasury yield hit its highest level since 2007. July 31: Q2 GDP growth came in at 1.5% (down from 2.1%), with AI-driven imports widening the trade deficit; the 30-year mortgage rate hit 6.66% on July 30.",
+      "status": "active"
+    },
+    {
+      "id": "water-utility-plc-attacks-2026-07",
+      "title": "Attacks on water-utility industrial controllers (PLCs)",
+      "first_seen": "2026-08-02",
+      "last_update": "2026-08-02",
+      "summary": "Following attacks that disrupted 30+ community water systems in Minnesota and a separate incident in Michigan under FBI/possible-Iran investigation, CISA issued a July 30 alert warning that threat actors are targeting internet-exposed PLCs (Rockwell/Allen-Bradley, Siemens, Schneider Electric) at water and wastewater utilities in at least seven states, in some cases locking out operators. CISA is urging utilities to remove PLCs and other OT devices from direct internet exposure; cellular modems flagged as a common blind spot. Distinct from the ongoing Cisco SD-WAN campaign.",
       "status": "active"
     }
   ]
