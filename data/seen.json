@@ -662,7 +662,7 @@
   "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html": {
     "source": "The Hacker News",
     "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-    "seen": "2026-08-05T11:18:30.070761+00:00"
+    "seen": "2026-08-14T11:28:24.800255+00:00"
   },
   "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-august-2026": {
     "source": "Data Center Knowledge",
@@ -1373,5 +1373,95 @@
     "source": "CBS News",
     "title": "5 takeaways from Zuckerberg's essay on his vision for superintelligence",
     "seen": "2026-08-12T11:16:32.470323+00:00"
+  },
+  "https://www.cnn.com/2026/08/13/world/live-news/iran-war-trump": {
+    "source": "CNN",
+    "title": "Strait of Hormuz traffic remains low as world burns through oil stockpiles",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.cnbc.com/2026/08/13/us-iran-war-trump-hormuz-irgc.html": {
+    "source": "CNBC",
+    "title": "'Hormuz remains blocked': Iran disputes Trump claims as traffic sinks to near 3-month lows",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/": {
+    "source": "CBS News",
+    "title": "Trump says U.S. has 'total control' over Strait of Hormuz and might 'keep it'",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.foxnews.com/live-news/iran-war-trump-strait-of-hormuz-08-13-26": {
+    "source": "Fox News",
+    "title": "Iran talks tough to US, says Trump 'miscalculated' on Strait of Hormuz",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://abcnews.com/International/colombia-earthquake-rescue-operations-continue-224-dead/story?id=135571163": {
+    "source": "ABC News",
+    "title": "Colombia earthquake death toll climbs to 281, more than 12,000 homes destroyed",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.local10.com/news/world/2026/08/13/earthquake-in-colombia-at-least-273-dead-3284-injured/": {
+    "source": "Local 10 / AP",
+    "title": "Earthquake in Colombia: Death toll rises to 273; 3,284 injured",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory": {
+    "source": "NVIDIA Newsroom",
+    "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html": {
+    "source": "CNBC",
+    "title": "Nvidia locks down memory supply from SK Hynix as part of $500 billion AI deal",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.timesofisrael.com/liveblog-august-13-2026/": {
+    "source": "Times of Israel",
+    "title": "Liveblog August 13, 2026",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://news.un.org/en/story/2026/08/1168137": {
+    "source": "UN News",
+    "title": "Ebola tracing improves in DR Congo – but the virus is still winning the race",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://news.cgtn.com/news/2026-08-13/DRC-Ebola-outbreak-second-largest-on-record-1Pzf738ICM8/p.html": {
+    "source": "CGTN",
+    "title": "DRC Ebola outbreak second-largest on record",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html": {
+    "source": "CNBC",
+    "title": "CPI inflation report July 2026: Prices rose 0.1%, annual rate 3.4%",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog": {
+    "source": "CISA",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/": {
+    "source": "TechCrunch",
+    "title": "Uber and Pony.ai plan to bring 2,000 robotaxis to Europe",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html": {
+    "source": "CNBC",
+    "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.npr.org/2026/08/13/nx-s1-5928400/space-news-the-perseid-meteor-shower-the-suns-surface-and-a-spacex-moon-crash": {
+    "source": "NPR",
+    "title": "Space news: The Perseid meteor shower, the Sun's surface, and a SpaceX moon crash",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://www.npr.org/2026/08/13/g-s1-137742/hiv-prevention-lenacapavir-uganda": {
+    "source": "NPR",
+    "title": "The drug lenacapavir is a mighty weapon against HIV. Its rollout gets mixed reviews",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
+  },
+  "https://variety.com/2026/film/news/power-of-young-hollywood-2026-party-inside-tate-mcrae-1236829692/": {
+    "source": "Variety",
+    "title": "Inside Variety's Power of Young Hollywood 2026 Celebration",
+    "seen": "2026-08-14T11:28:24.800255+00:00"
   }
 }
